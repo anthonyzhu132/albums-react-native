@@ -5,7 +5,7 @@ class AlbumList extends Component {
   render() {
     return (
       <View>
-        <Text>Album List</Text>
+        <Text>Album List Test</Text>
       </View>
     );  
   }
