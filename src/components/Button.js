@@ -5,10 +5,10 @@ const Button = ({ onPress }) => {
   const { buttonStyle, textStyle } = styles;
 
   return (
-    <TouchableOpacity onPress={onPress} style={buttonStyle}>
+    <TouchableOpacity onPress={onPress, text} style={buttonStyle}>
       <Text style={textStyle}>
-        Click me
-        </Text>
+        {text}
+      </Text>
     </TouchableOpacity>
   );
 };
